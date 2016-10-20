@@ -1,0 +1,38 @@
+#stats {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#stats .table-container {
+    float: left;
+    width: 50%;
+}
+
+.most-common-table {
+    margin: 0 auto;
+}
+
+.most-common-table h3 {
+    text-align: center;
+}
+
+.most-common-table table {
+    margin: 0 auto;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}

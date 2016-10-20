@@ -1,0 +1,15 @@
+# DATABASE
+app/db/*
+app/static/attachments/*
+
+# IPYTHON NOTEBOOK
+.ipython_notebooks/*
+
+# OTHER
+*.sw[op]
+*.py[oc]
+
+node_modules/*
+.ropeproject/*
+app/static/js/*
+.eslintcache

@@ -1,0 +1,69 @@
+/* 
+ * TOKENIZER styles
+ * */
+
+.tokenize-input ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tokenize-input ul.inputs {
+  border: 1px solid #A6A6A6;
+  border-radius: 3px;
+  margin-bottom: 0;
+  padding-left: 2px;
+}
+
+.tokenize-input ul.inputs li {
+  display: inline-block;
+}
+
+.tokenize-input ul.inputs li.selected-token {
+  background-color: #F5F7F8;
+  border: 1px solid #C1C7CF;
+  color: #7C8E9A;
+  border-radius: 3px;
+  padding: 3px 8px;
+  margin-right: 6px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.tokenize-input ul.inputs li.selected-token .token-delete {
+  font-size: 1em;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.tokenize-input ul.inputs li.selected-token .token-delete:hover {
+  background-color: #DDD;
+}
+
+.tokenize-input input {
+  font-size: 1em;
+  border: none;
+}
+
+.tokenize-input input:focus {
+  outline: 0;
+}
+
+.tokenize-input ul.suggestions {
+  margin-top: 0;
+}
+
+.tokenize-input ul.suggestions.nonempty {
+  border-radius: 2px;
+  border-left: 1px solid #A6A6A6;
+  border-bottom: 1px solid #A6A6A6;
+  border-right: 1px solid #A6A6A6;
+}
+
+.tokenize-input ul.suggestions li {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.tokenize-input ul.suggestions li.selected {
+  background-color: #2F81B4;
+}

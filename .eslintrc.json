@@ -1,0 +1,17 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "standard",
+        "promise",
+        "react"
+    ],
+    "rules": {
+        "react/jsx-uses-vars": 2,
+        "brace-style": "off"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    }
+}

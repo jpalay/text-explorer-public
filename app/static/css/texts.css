@@ -1,0 +1,89 @@
+/* 
+ * TEXTS styles
+ * */
+
+.text-message-wrapper {
+    margin-bottom: 20px;
+}
+
+.text-message-wrapper .text-date {
+    margin-bottom: 24px;
+    text-align: center;
+    color: #999;
+}
+
+.text-message.highlighted {
+    background-color: yellow;
+}
+
+.text-message .text-image {
+    display: inline-block;
+    vertical-align: top;
+    width: 64px;
+    margin-top: 4px;
+}
+
+.text-message .text-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.text-message .text-data {
+    display: inline-block;
+    max-width: 536px;
+    padding-left: 10px;
+}
+
+/*
+ * Metadata
+ * */
+
+.text-message .text-data .text-metadata .text-sender {
+    font-weight: bold;
+}
+
+.text-message .text-data .text-metadata .text-time {
+    margin-left: 5px;
+    color: #999;
+}
+
+.text-message .text-data .text-metadata .text-link {
+    display: none;
+    margin-left: 15px;
+    color: #999;
+    cursor: pointer;
+}
+
+.text-message .text-data .text-metadata .text-link:hover {
+    text-decoration: underline;
+}
+
+.text-message:hover .text-data .text-metadata .text-link {
+    display: inline-block;
+}
+
+
+/*
+ * Text body
+ * */
+
+.text-message .text-data .text-body {
+    margin-top: 5px;
+}
+
+.text-message .text-data img.text-attachment {
+    width: 100%;
+}
+
+.text-message .text-data p.text-text + .text-attachment {
+    margin-top: 7px;
+}
+
+.text-message .text-data p.text-text {
+    margin: 0;
+}
+
+.text-message .text-data p.text-text strong {
+    font-weight: bold;
+    color: black;
+}

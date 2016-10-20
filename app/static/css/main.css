@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    /* background-color: #EEEEEE; */
+    color: #333;
+}
+
+#browse, #search-results {
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.loading {
+    text-align: center;
+}
+
+/*
+ * CLEARFIX HACK:
+ * From https://css-tricks.com/snippets/css/clear-fix/
+ * */
+
+.cf:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .cf             { zoom: 1; } /* IE6 */
+*:first-child+html .cf { zoom: 1; } /* IE7 */

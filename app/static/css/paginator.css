@@ -1,0 +1,28 @@
+/* 
+ * PAGINATOR styles
+ * */
+
+.paginator {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.paginator a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.paginator .btn {
+    padding: 7px;
+    background-color: #344A71;
+    color: white;
+}
+
+.paginator .btn.prev {
+    margin-right: 10px;
+}
+
+.paginator .btn.next {
+    margin-left: 10px;
+}
